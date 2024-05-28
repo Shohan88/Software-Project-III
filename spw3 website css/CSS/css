@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Poppins", sans-serif;
+}
+/* --nav-- */
+.nav-color{
+    color: aliceblue;
+}
+
+.navbar-custom {
+    background-color: #E9EDC9;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link {
+    color: #090909; /* White text color */
+    padding: 0px 30px;
+    font-weight:500;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #d88028; /* Hover color */
+}
+
+.nav-align{
+    justify-content: center;
+    align-items: center;
+}
+
+/* .signin{
+    border: 1px solid #D4A373;
+    margin-right: 20px;
+    padding: 8px 0px;
+    color: white;
+    background-color: #e2872b;
+    border-radius: 5px;
+}
+.white-color{
+    color: #fff;
+    
+} */
+.design{
+    border: 2px solid #e2872b;
+    padding: 7px 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #e2872b;
+    border-radius: 5px;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+.design:hover{
+    background-color: #E9EDC9;
+    text-decoration: none;
+    color: black;
+
+}
+
+/* --end nav-- */
+
+/* hero section  */
+
+header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.32),rgba(4, 9, 30, 0.368)),url(home.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
